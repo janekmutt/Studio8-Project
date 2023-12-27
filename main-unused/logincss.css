@@ -1,0 +1,82 @@
+html , body {               
+    background-image: url(../main-asset/loginbg.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+
+}
+.box {
+    background-color :white;
+    height:700px;
+    padding:10px;
+    margin:100px;
+    border-radius: 10px;       /*ทำให้กรอบไม่มีขอบ*/
+}
+
+.main-box {
+    max-width: 900px;        /*ความกว้างที่มากที่สุดคือ 700px*/  
+    margin:auto;             /*ทำให้อยู่ตรงกลาง*/  
+}
+
+.navbar{
+    width: 95%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo_MAIN{
+    width: 240px;
+    cursor: pointer;
+}
+
+.headtext {
+    font-family: sans-serif;
+    text-align:center ;
+}
+
+.h2text {
+    font-family: sans-serif;
+    margin-left: 20px;
+}
+
+.userpassin {
+    font-size:20px;
+    margin-left: 20px;
+    border: none;
+    border-bottom: 1px solid gray;
+    width:94%;
+    height: 30px;
+}
+
+.forget {
+    font-family: sans-serif;
+    display:inline-block;
+    margin-left:260px;
+    text-decoration:none;
+    height: 30px;
+}
+
+.logbutton{
+    text-align: center;
+    text-decoration: none;
+}
+.loginWord {
+    font-family: sans-serif;
+    color : rgb(75, 72, 72);
+    font-size: 25px;
+}
+
+.login-box {
+    background-color: rgb(253, 209, 253);
+    margin: auto;
+    width: 400px;
+    height: 60px;
+    padding : 1px;
+    border-radius: 30px; 
+    
+}

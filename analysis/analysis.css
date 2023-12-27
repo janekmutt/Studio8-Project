@@ -1,0 +1,54 @@
+html , body {               
+    background-image: url(../main-asset/loginbg.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    background-color :rgb(255, 255, 255);
+    min-height:700px;
+    padding:10px;
+    margin:100px;
+    border-radius: 10px;       /*ทำให้กรอบไม่มีขอบ*/
+    z-index:1;
+}
+
+.main-box {
+    min-width: 1150px;
+    max-width: 1500px;      /*ความกว้างที่มากที่สุดคือ 700px*/  
+    margin:auto;             /*ทำให้อยู่ตรงกลาง*/ 
+    z-index:1; 
+}
+
+.h2text {
+    font-family: sans-serif;
+    /*display: inline-block;*/
+    margin-left: 20px;
+    border: none;
+}
+
+.navbar{
+    width: 95%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbarTabFont{
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.logo_MAIN{
+    width: 240px;
+    cursor: pointer;
+}
+
+/* add new CSS 29/05/2566 */
+.bold{
+    font-weight: bold;
+}

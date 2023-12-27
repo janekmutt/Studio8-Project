@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../main-asset/BG_MAIN_STUDIO8.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    z-index: 1;
+}
+.bannerplus{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../main-asset/STUDIO8_1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    z-index: 1;
+}
+.navbar{
+    width: 85%;
+    max-width: 1600px;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px
+}
+.navbarTabFont{
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.logo_MAIN{
+    width: 120px;
+    cursor: pointer;
+}
+.navbar ul{
+    height: 45px;
+    min-width: 372px;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+    position: relative;  
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #000000;
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0%;
+    background: #FFCCFF;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+.navbarIcon{
+    width: 20px;
+    cursor: pointer;
+    margin: 0px 20px;
+    position: relative;
+    padding-top: 2px;
+    padding-inline: 2px;
+}
+.navbarIcon:hover{
+    transition: 0.2s;
+    height: 22px;
+    width: 22px;
+    padding-top: 0px;
+    padding-inline: 0px;
+}
+.bottomdiv{
+    justify-content: fixed;
+}
+.btn_accessories{
+    text-align: center;
+    margin-top: 82vh;
+    margin-left: 8.7%;
+    justify-content: fixed;
+    z-index: 1;
+}
+.btn_accessories a{
+    color: #000000;
+    padding: 0.5rem 1rem;
+}
+.btn{
+    margin-right: 10px;
+    font-size:  16px;
+    font-family: sans-serif;
+}
+.btn-nonline{
+    font-size: 16px;
+    font-family: sans-serif;
+    text-decoration: none;
+    margin-left: -1.85%;
+}
+.Social{
+    list-style: none;
+    display: inline-block;
+    margin: 0 1rem;
+    position: relative;  
+    margin-left: 120px;
+}
+.SocialIcon{
+    width: 50px;
+    cursor: pointer;
+    margin: -9 10px;
+    position: relative;
+}
+.search-btn{
+    width: 40%;
+    min-width: 290px;
+    background: rgba(255,255,255,0.2);
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 10px;
+}
+.search-btn input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 10px 10px;
+    font-size: 15px;
+    color: #000000; 
+}
+::placeholder{
+    color: #000000;
+}
+.search-btn button img{
+    width: 63px;
+}
+.search-btn button{
+    border: 0;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background: transparent;
+    cursor: pointer;
+}
+.bottominfo{
+    background-color: maroon;
+    z-index: 2;
+}

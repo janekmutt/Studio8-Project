@@ -1,0 +1,38 @@
+html , body {               
+    background-image: url(../main-asset/Aboutbackground.png);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+.box {
+    background-color :white;
+    height:700px;
+    padding:10px;
+    margin:100px;
+    border-radius: 10px;       /*ทำให้กรอบไม่มีขอบ*/
+}
+
+.main-box {
+    max-width: 900px;        /*ความกว้างที่มากที่สุดคือ 700px*/  
+    margin:auto;             /*ทำให้อยู่ตรงกลาง*/  
+}
+.headtext {
+    font-family: sans-serif;
+}
+.abouth1 {
+    font-family: sans-serif;
+    font-weight: Bold;
+}
+.image {
+    
+    height:100%;
+    width: 100%;
+  /* Full height */
+  
+
+  /* Center and scale the image nicely */
+  
+}
